@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Light (300) */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* Regular (400) */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Semi-Bold (600) */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+/* Bold (700) */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+
+
+@layer base{
+    html,body{
+        font-family: "Open Sans",sans-serif;
+        @apply antialiased 
+    }
+}
